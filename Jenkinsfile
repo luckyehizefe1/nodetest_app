@@ -12,7 +12,7 @@ pipeline {
     stage("Checkout source") {
       steps {
         // Check out from version control
-        git 'https://github.com/luckyehizefe1/nodeapp_test.git/'
+        git 'https://github.com/luckyehizefe1/nodetest_app.git/'
        }
     }
 
